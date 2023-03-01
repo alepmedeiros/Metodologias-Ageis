@@ -1,0 +1,28 @@
+Adaptando o desenvolvimento solo as metodologias ágeis Scrum, Kaban e Planning Poker, temos os seguintes processos necessários para gerenciar o término pontual de uma tarefa:
+
+1. Definição detalhada da tarefa, ou História do Usuário, pelo cliente (Product Backlog);
+2. Definição das atividades, pelo desenvolvedor com anuência do cliente, necessárias para a realização da tarefa;
+3. Sequenciamento ou priorização das atividades pelo cliente;
+4. Estimativa das durações das atividades (em horas) segundo a percepção do cliente e do desenvolvedor, na qual, juntos deverão chegar a um denominador comum (Planning Poker);
+5. Seleção das atividades pelo desenvolvedor, com base nas prioridades definidas, a serem executadas durante um novo ciclo de desenvolvimento (Sprint Backlog);
+6. Desenvolvimento do quadro de fluxo de trabalho para acompanhar a execução das atividades do ciclo (Quadro Kaban);
+7. Desenvolvimento do cronograma do ciclo de desenvolvimento;
+8. Execução do ciclo de desenvolvimento;
+9. Manutenção das atividades do ciclo, do cronograma e do quadro de fluxo;
+10. Voltar ao ponto 2 ou 5 se necessário.
+
+Sobre a História do Usuário: Uma tarefa deverá ser descrita no formato História do Usuário: “SENDO... POSSO... PARA QUE…”. Exemplo: SENDO um vendedor que realiza 50 visitas por dia POSSO consultar as últimas compras de cada cliente PARA QUE ao chegar no cliente eu possa consultar qual foi sua última compra, e assim conseguir negociar com ele estando melhor informado.
+Sobre as atividades: Referem-se as atividades concretas relacionadas ao processo de desenvolvimento da história do usuário. Para o exemplo anterior, teriamos atividades como:  Cadastro e controle de vendedores; Cadastro e controle de clientes; Cadastro e controle de compras dos clientes; Consulta de vendedores; etc.
+Sobre a duração das atividades: Alguns fatores influenciam na duração das atividades: Perfil do desenvolvedor, Documentação, Teste, Interoperabilidade. Desenvolver uma atividade como desenvolvedor full-stack (back-end, front-end e banco de dados) dura mais tempo do que apenas como desenvolvedor back-end ou front-end ou de banco de dados. Além disso, existem vários tipos de documentação: código-fonte; requisitos funcionais e não funcionais; processo de desenvolvimento; processo de modelagem, etc. Existem também vários tipos de teste: teste funcional; teste unitário; teste de integração; etc. E por fim, tem a questão da interoperabilidade, ou seja, uma funcionalidade que precise de uma interface (API) onde outras aplicações possam consumir via json irá demandar mais tempo para desenvolver. 
+Sobre os ciclos: Uma tarefa poderá ter mais de um ciclo caso tenha muitas atividades com carga horária pesada ou um ciclo precise ser reexecutado ou melhorado. Durante cada ciclo, o desenvolvedor cria um incremento de produto potencialmente entregável (por exemplo, software funcional). A soma da carga horária dos ciclos corresponde a carga horária total da tarefa.
+Sobre a duração dos ciclos: Ciclos tendem a durar entre uma semana e um mês, e são um esforço dentro de uma faixa de tempo (ou seja, restrito a uma duração específica) de comprimento constante. Portanto, o cliente deve definir a faixa de tempo fixa dos ciclos entre uma semana (20h) e um mês (80h), considerando que a carga horária do desenvolvedor seja 4h/dia. Por exemplo: Se o cliente definir a duração em 30h, então todo novo ciclo terá duração total de 30h/ciclo, que equivale a uma semana e meia.
+Ferrramentas para gerenciar as tarefas: Google Groups, Google Docs, Google Calendar, Github ou equivalente, Trello.
+
+Referências:
+- https://www.google.com.br/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCMQFjAAahUKEwis3NvF4OPHAhVHF5AKHTsgBl4&url=https%3A%2F%2Ffiles.zenhub.io%2F54c2ce37ea33564f0cc06d0c&usg=AFQjCNE7IVB9ue5tghfIrcZWKuaYEHbVAQ&sig2=8Hd8fEvYM8bfRIKhhaSUXQ&bvm=bv.102022582,d.Y2I
+
+- http://www.devmedia.com.br/scrum-e-planning-poker-analise-de-estimativa-de-software/31019#ixzz3kz0o1Vqx
+
+- http://www.devmedia.com.br/estimativa-de-tempo-em-gerencia-de-projetos-de-software-revista-engenharia-de-software-magazine-51/25757
+
+- https://pt.wikipedia.org/wiki/Scrum
